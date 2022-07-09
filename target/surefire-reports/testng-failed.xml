@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="QAAutomation.validatetitle">
+        <methods>
+          <include name="teardown"/>
+          <include name="NavigationPage"/>
+        </methods>
+      </class> <!-- QAAutomation.validatetitle -->
+      <class name="QAAutomation.HomePage">
+        <methods>
+          <include name="NavigationPage" invocation-numbers="0"/>
+          <include name="teardown"/>
+          <include name="inicializar"/>
+        </methods>
+      </class> <!-- QAAutomation.HomePage -->
+      <class name="QAAutomation.validateNav">
+        <methods>
+          <include name="teardown"/>
+          <include name="inicializar"/>
+          <include name="NavigationPage"/>
+        </methods>
+      </class> <!-- QAAutomation.validateNav -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
